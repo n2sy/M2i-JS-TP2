@@ -16,8 +16,10 @@
       <div class="text-bg-primary p-3">Gestionnaire de dépenses</div>
       <label for="intitule">Intitulé de la dépense</label>
       <input type="text" class="form-control" id="intitule" />
+
       <label for="somme">Somme de la dépense</label>
-      <input type="text" class="form-control" id="somme" />
+      <input type="number" class="form-control" id="somme" />
+
       <button id="btn-ajouter" type="button" class="btn btn-success">
         Ajouter
       </button>
@@ -25,9 +27,7 @@
         Effacer
       </button>
 
-      <ol id="dep-list" class="list-group">
-        ...
-      </ol>
+      <ol id="dep-list" class="list-group"></ol>
       <strong>Total des dépenses : <span id="total-dep">......</span></strong>
     </div>
     <script src="script.js"></script>
